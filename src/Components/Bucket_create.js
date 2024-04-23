@@ -26,7 +26,7 @@ const Bucket_create = () => {
             minioPort: 9000
         };
          /*end point:54.198.138.169*/
-        const URL = 'http://127.0.0.1:7000/bucket/create';
+        const URL = 'http://54.198.138.169:7000/bucket/create';
 
         try {
             const response = await axios.post(URL, data, { headers });
